@@ -1,0 +1,10 @@
+2025-11-05 11:18:59,364:__main__:Total 103 products found in productUrls.txt.
+2025-11-05 11:18:59,365:__main__:https://www.burkett.com/used-blodgett-dfg-100-double-stack-convection-oven-1013505
+2025-11-05 11:19:12,303:__main__:blodgett Brand Name Matched
+2025-11-05 11:19:15,546:__main__:17366 >> Updated details for product with mpn "DFG-100 DBL (714626)".
+2025-11-05 11:19:18,561:__main__:17366 >> Added new product in ProductVendor "17366 x 714626".
+2025-11-05 11:19:21,566:__main__:17366 >> Added product vendor URL for vendor_product_id "4876499".
+2025-11-05 11:19:24,608:__main__:Record Inserted for vendor_product_id (4876499) and source (direct_from_website)
+2025-11-05 11:19:31,062:__main__:History Table is up-to-date.
+2025-11-05 11:19:31,553:__main__:Record Inserted for vendor_product_id (4876499) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-05 11:19:51,242:__main__:https://www.burkett.com/blodgett-1415double-double-deck-20-electric-deck-oven-208-220-v

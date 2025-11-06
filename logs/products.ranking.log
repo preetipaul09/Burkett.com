@@ -1,0 +1,6 @@
+2025-11-05 11:19:31,798:modules.saveRanks:
+    ------ Starting evaluating competitors ranking of the product ---------
+    
+2025-11-05 11:19:34,352:modules.saveRanks:Finding ranking for product_id (714626) of vendor_id (17366).
+2025-11-05 11:19:50,997:modules.saveRanks:Not found in ERP.
+2025-11-05 11:19:51,241:modules.saveRanks:Finished making ranking of the product in 19.44 second(s)
