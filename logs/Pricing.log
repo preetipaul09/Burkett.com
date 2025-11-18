@@ -1,0 +1,99 @@
+2025-11-17 11:15:58,921:__main__:Found 8997 URLs to process
+2025-11-17 11:15:58,921:__main__:Processing URL: https://hahnappliance.com/laundry/washers/front-load-washer/electrolux/ELFW7637AT
+2025-11-17 11:15:58,922:__main__:https://hahnappliance.com/laundry/washers/front-load-washer/electrolux/ELFW7637AT
+2025-11-17 11:16:02,339:__main__:Maindiv not found!!
+2025-11-17 11:16:02,339:__main__:Processing URL: https://hahnappliance.com/laundry/washers/front-load-washer/electrolux/ELFW7637AT
+2025-11-17 11:16:02,339:__main__:https://hahnappliance.com/laundry/washers/front-load-washer/electrolux/ELFW7637AT
+2025-11-17 11:16:08,440:__main__:Maindiv not found!!
+2025-11-17 11:16:08,441:__main__:Processing URL: https://hahnappliance.com/laundry/washers/front-load-washer/electrolux/ELFW7637AT
+2025-11-17 11:16:08,441:__main__:https://hahnappliance.com/laundry/washers/front-load-washer/electrolux/ELFW7637AT
+2025-11-17 11:16:54,264:__main__:Found 1839 URLs to process
+2025-11-17 11:16:54,264:__main__:Processing URL: https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity
+2025-11-17 11:16:54,264:__main__:https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity
+2025-11-17 11:17:05,448:__main__:MPN mismatch for https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity: given_product_mpn:8150963, scraped_product_mpn:WD-20
+2025-11-17 11:17:05,454:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-17 11:17:05,455:__main__:https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-17 11:17:12,208:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly: given_product_mpn:B-0107-M, scraped_product_mpn:B-0107
+2025-11-17 11:17:12,211:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-17 11:17:12,212:__main__:https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-17 11:17:16,739:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly: given_product_mpn:B-0107-M, scraped_product_mpn:B-0107
+2025-11-17 11:17:16,743:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-10k-repair-kit-for-b-0107-spray-valve
+2025-11-17 11:17:16,743:__main__:https://www.burkett.com/t-s-brass-b-10k-repair-kit-for-b-0107-spray-valve
+2025-11-17 11:17:22,973:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-10k-repair-kit-for-b-0107-spray-valve: given_product_mpn:B-10K, scraped_product_mpn:B-10K
+2025-11-17 11:17:22,982:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-17 11:17:22,983:__main__:https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-17 11:17:29,297:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit: given_product_mpn:B-0113, scraped_product_mpn:B-0113-B
+2025-11-17 11:17:29,301:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-17 11:17:29,301:__main__:https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-17 11:17:33,971:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit: given_product_mpn:B-0113, scraped_product_mpn:B-0113-B
+2025-11-17 11:17:33,974:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0044-h-44-pre-rinse-hose
+2025-11-17 11:17:33,975:__main__:https://www.burkett.com/t-s-brass-b-0044-h-44-pre-rinse-hose
+2025-11-17 11:26:01,143:__main__:Found 1839 URLs to process
+2025-11-17 11:26:01,144:__main__:Processing URL: https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity
+2025-11-17 11:26:01,146:__main__:https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity
+2025-11-17 11:26:08,803:__main__:MPN mismatch for https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity: given_product_mpn:8150963, scraped_product_mpn:WD-20
+2025-11-17 11:26:08,806:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-17 11:26:08,807:__main__:https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-17 11:26:15,844:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly: given_product_mpn:B-0107-M, scraped_product_mpn:B-0107
+2025-11-17 11:26:15,848:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-17 11:26:15,848:__main__:https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-17 11:26:18,721:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly: given_product_mpn:B-0107-M, scraped_product_mpn:B-0107
+2025-11-17 11:26:18,723:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-10k-repair-kit-for-b-0107-spray-valve
+2025-11-17 11:26:18,724:__main__:https://www.burkett.com/t-s-brass-b-10k-repair-kit-for-b-0107-spray-valve
+2025-11-17 11:26:23,734:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-10k-repair-kit-for-b-0107-spray-valve: given_product_mpn:B-10K, scraped_product_mpn:B-10K
+2025-11-17 11:26:23,741:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-17 11:26:23,742:__main__:https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-17 11:26:28,332:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit: given_product_mpn:B-0113, scraped_product_mpn:B-0113-B
+2025-11-17 11:26:28,336:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-17 11:26:28,336:__main__:https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-17 11:26:32,795:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit: given_product_mpn:B-0113, scraped_product_mpn:B-0113-B
+2025-11-17 11:26:32,799:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0044-h-44-pre-rinse-hose
+2025-11-17 11:26:32,800:__main__:https://www.burkett.com/t-s-brass-b-0044-h-44-pre-rinse-hose
+2025-11-17 11:26:37,531:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-0044-h-44-pre-rinse-hose: given_product_mpn:B-0044-H, scraped_product_mpn:B-0044-H
+2025-11-17 11:26:37,537:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0230-k-installation-kit-for-b-0230-faucets
+2025-11-17 11:26:37,537:__main__:https://www.burkett.com/t-s-brass-b-0230-k-installation-kit-for-b-0230-faucets
+2025-11-17 11:26:43,911:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-0230-k-installation-kit-for-b-0230-faucets: given_product_mpn:B-0230-K, scraped_product_mpn:B-0230-K
+2025-11-17 11:26:43,917:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0230-k-installation-kit-for-b-0230-faucets
+2025-11-17 11:26:43,918:__main__:https://www.burkett.com/t-s-brass-b-0230-k-installation-kit-for-b-0230-faucets
+2025-11-17 11:26:48,537:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-0230-k-installation-kit-for-b-0230-faucets: given_product_mpn:B-0230-K, scraped_product_mpn:B-0230-K
+2025-11-17 11:26:48,544:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0674-rgh-wall-mount-service-sink-faucet-w-pail-hook
+2025-11-17 11:26:48,545:__main__:https://www.burkett.com/t-s-brass-b-0674-rgh-wall-mount-service-sink-faucet-w-pail-hook
+2025-11-17 11:26:55,316:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-0674-rgh-wall-mount-service-sink-faucet-w-pail-hook: given_product_mpn:B-0674-RGH, scraped_product_mpn:B-0674-RGH
+2025-11-17 11:26:55,322:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0674-rgh-wall-mount-service-sink-faucet-w-pail-hook
+2025-11-17 11:26:55,323:__main__:https://www.burkett.com/t-s-brass-b-0674-rgh-wall-mount-service-sink-faucet-w-pail-hook
+2025-11-17 11:26:59,509:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-0674-rgh-wall-mount-service-sink-faucet-w-pail-hook: given_product_mpn:B-0674-RGH, scraped_product_mpn:B-0674-RGH
+2025-11-17 11:26:59,516:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-1110-ln-4-center-deck-mount-workboard-faucet-less-nozzle
+2025-11-17 11:26:59,516:__main__:https://www.burkett.com/t-s-brass-b-1110-ln-4-center-deck-mount-workboard-faucet-less-nozzle
+2025-11-17 11:27:05,070:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-1110-ln-4-center-deck-mount-workboard-faucet-less-nozzle: given_product_mpn:B-1110-LN, scraped_product_mpn:B-1110-LN
+2025-11-17 11:27:05,076:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-1110-ln-4-center-deck-mount-workboard-faucet-less-nozzle
+2025-11-17 11:27:05,076:__main__:https://www.burkett.com/t-s-brass-b-1110-ln-4-center-deck-mount-workboard-faucet-less-nozzle
+2025-11-17 11:27:09,584:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-1110-ln-4-center-deck-mount-workboard-faucet-less-nozzle: given_product_mpn:B-1110-LN, scraped_product_mpn:B-1110-LN
+2025-11-17 11:27:09,593:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0892-deck-mount-medical-faucet-w-gooseneck-spout
+2025-11-17 11:27:09,593:__main__:https://www.burkett.com/t-s-brass-b-0892-deck-mount-medical-faucet-w-gooseneck-spout
+2025-11-17 11:27:15,153:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0892-deck-mount-medical-faucet-w-gooseneck-spout: given_product_mpn:B-0892-01, scraped_product_mpn:B-0892
+2025-11-17 11:27:15,154:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0892-deck-mount-medical-faucet-w-gooseneck-spout
+2025-11-17 11:27:15,155:__main__:https://www.burkett.com/t-s-brass-b-0892-deck-mount-medical-faucet-w-gooseneck-spout
+2025-11-17 11:27:19,277:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0892-deck-mount-medical-faucet-w-gooseneck-spout: given_product_mpn:B-0892-01, scraped_product_mpn:B-0892
+2025-11-17 11:27:19,280:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0205-ln-deck-mount-single-pantry-faucet-less-nozzle
+2025-11-17 11:27:19,281:__main__:https://www.burkett.com/t-s-brass-b-0205-ln-deck-mount-single-pantry-faucet-less-nozzle
+2025-11-18 11:17:02,635:__main__:Found 1839 URLs to process
+2025-11-18 11:17:02,636:__main__:Processing URL: https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity
+2025-11-18 11:17:02,636:__main__:https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity
+2025-11-18 11:17:11,989:__main__:MPN mismatch for https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity: given_product_mpn:8150963, scraped_product_mpn:WD-20
+2025-11-18 11:17:11,991:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-18 11:17:11,991:__main__:https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-18 11:17:18,941:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly: given_product_mpn:B-0107-M, scraped_product_mpn:B-0107
+2025-11-18 11:17:18,942:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-18 11:17:18,943:__main__:https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly
+2025-11-18 11:17:23,811:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly: given_product_mpn:B-0107-M, scraped_product_mpn:B-0107
+2025-11-18 11:17:23,812:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-10k-repair-kit-for-b-0107-spray-valve
+2025-11-18 11:17:23,813:__main__:https://www.burkett.com/t-s-brass-b-10k-repair-kit-for-b-0107-spray-valve
+2025-11-18 11:17:30,327:__main__:MPN matched for https://www.burkett.com/t-s-brass-b-10k-repair-kit-for-b-0107-spray-valve: given_product_mpn:B-10K, scraped_product_mpn:B-10K
+2025-11-18 11:17:30,408:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-18 11:17:30,409:__main__:https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-18 11:17:37,600:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit: given_product_mpn:B-0113, scraped_product_mpn:B-0113-B
+2025-11-18 11:17:37,602:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-18 11:17:37,602:__main__:https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit
+2025-11-18 11:17:42,218:__main__:MPN mismatch for https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit: given_product_mpn:B-0113, scraped_product_mpn:B-0113-B
+2025-11-18 11:17:42,219:__main__:Processing URL: https://www.burkett.com/t-s-brass-b-0044-h-44-pre-rinse-hose
+2025-11-18 11:17:42,220:__main__:https://www.burkett.com/t-s-brass-b-0044-h-44-pre-rinse-hose

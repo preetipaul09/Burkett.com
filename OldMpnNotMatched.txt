@@ -1,0 +1,17 @@
+https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity | given_product_mpn: 8150963 | scraped_product_mpn: WD-20
+https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly | given_product_mpn: B-0107-M | scraped_product_mpn: B-0107
+https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly | given_product_mpn: B-0107-M | scraped_product_mpn: B-0107
+https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit | given_product_mpn: B-0113 | scraped_product_mpn: B-0113-B
+https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit | given_product_mpn: B-0113 | scraped_product_mpn: B-0113-B
+https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity | given_product_mpn: 8150963 | scraped_product_mpn: WD-20
+https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly | given_product_mpn: B-0107-M | scraped_product_mpn: B-0107
+https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly | given_product_mpn: B-0107-M | scraped_product_mpn: B-0107
+https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit | given_product_mpn: B-0113 | scraped_product_mpn: B-0113-B
+https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit | given_product_mpn: B-0113 | scraped_product_mpn: B-0113-B
+https://www.burkett.com/t-s-brass-b-0892-deck-mount-medical-faucet-w-gooseneck-spout | given_product_mpn: B-0892-01 | scraped_product_mpn: B-0892
+https://www.burkett.com/t-s-brass-b-0892-deck-mount-medical-faucet-w-gooseneck-spout | given_product_mpn: B-0892-01 | scraped_product_mpn: B-0892
+https://www.burkett.com/dormont-wd-20-grease-interceptor-trap-20-gpm-40-lb-capacity | given_product_mpn: 8150963 | scraped_product_mpn: WD-20
+https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly | given_product_mpn: B-0107-M | scraped_product_mpn: B-0107
+https://www.burkett.com/t-s-brass-b-0107-prerinse-spray-valve-assembly | given_product_mpn: B-0107-M | scraped_product_mpn: B-0107
+https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit | given_product_mpn: B-0113 | scraped_product_mpn: B-0113-B
+https://www.burkett.com/t-s-brass-b-0113-b-easyinstall-single-hole-deck-mount-prerinse-unit | given_product_mpn: B-0113 | scraped_product_mpn: B-0113-B

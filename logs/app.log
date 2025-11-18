@@ -1,10 +1,83 @@
-2025-11-05 11:18:59,364:__main__:Total 103 products found in productUrls.txt.
-2025-11-05 11:18:59,365:__main__:https://www.burkett.com/used-blodgett-dfg-100-double-stack-convection-oven-1013505
-2025-11-05 11:19:12,303:__main__:blodgett Brand Name Matched
-2025-11-05 11:19:15,546:__main__:17366 >> Updated details for product with mpn "DFG-100 DBL (714626)".
-2025-11-05 11:19:18,561:__main__:17366 >> Added new product in ProductVendor "17366 x 714626".
-2025-11-05 11:19:21,566:__main__:17366 >> Added product vendor URL for vendor_product_id "4876499".
-2025-11-05 11:19:24,608:__main__:Record Inserted for vendor_product_id (4876499) and source (direct_from_website)
-2025-11-05 11:19:31,062:__main__:History Table is up-to-date.
-2025-11-05 11:19:31,553:__main__:Record Inserted for vendor_product_id (4876499) and source (direct_from_website) In z_17366_VendorPricing history table.
-2025-11-05 11:19:51,242:__main__:https://www.burkett.com/blodgett-1415double-double-deck-20-electric-deck-oven-208-220-v
+2025-11-17 11:05:01,278:__main__:Total 103 products found in productUrls.txt.
+2025-11-17 11:05:01,287:__main__:https://www.burkett.com/used-blodgett-dfg-100-double-stack-convection-oven-1013505
+2025-11-17 11:05:13,277:__main__:blodgett Brand Name Matched
+2025-11-17 11:05:16,389:__main__:17366 >> Updated details for product with mpn "DFG-100 DBL (714626)".
+2025-11-17 11:05:19,258:__main__:17366 >> Returned vendor_product_id (4876499).
+2025-11-17 11:05:22,192:__main__:17366 >> Updated product vendor URL for vendor_product_id "4876499".
+2025-11-17 11:05:25,193:__main__:Same vendor price already exists for vendor_product_id 4876499
+2025-11-17 11:05:25,693:__main__:Record Updated for vendor_product_id (4876499) and source (direct_from_website)
+2025-11-17 11:05:32,191:__main__:History Table is up-to-date.
+2025-11-17 11:05:32,695:__main__:Record Inserted for vendor_product_id (4876499) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:05:52,083:__main__:https://www.burkett.com/blodgett-1415double-double-deck-20-electric-deck-oven-208-220-v
+2025-11-17 11:06:03,615:__main__:blodgett Brand Name Matched
+2025-11-17 11:06:06,712:__main__:17366 >> Updated details for product with mpn "1415 DOUBLE (714573)".
+2025-11-17 11:06:09,583:__main__:17366 >> Added new product in ProductVendor "17366 x 714573".
+2025-11-17 11:06:12,476:__main__:17366 >> Added product vendor URL for vendor_product_id "4882398".
+2025-11-17 11:06:15,413:__main__:Record Inserted for vendor_product_id (4882398) and source (direct_from_website)
+2025-11-17 11:06:21,680:__main__:History Table is up-to-date.
+2025-11-17 11:06:22,159:__main__:Record Inserted for vendor_product_id (4882398) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:06:40,454:__main__:https://www.burkett.com/blodgett-1415single-20-electric-deck-oven-208-220-240-volt
+2025-11-17 11:06:51,193:__main__:blodgett Brand Name Matched
+2025-11-17 11:06:54,535:__main__:17366 >> Updated details for product with mpn "1415 SINGLE (714566)".
+2025-11-17 11:06:57,428:__main__:17366 >> Added new product in ProductVendor "17366 x 714566".
+2025-11-17 11:07:00,441:__main__:17366 >> Added product vendor URL for vendor_product_id "4882399".
+2025-11-17 11:07:03,459:__main__:Record Inserted for vendor_product_id (4882399) and source (direct_from_website)
+2025-11-17 11:07:09,814:__main__:History Table is up-to-date.
+2025-11-17 11:07:10,292:__main__:Record Inserted for vendor_product_id (4882399) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:07:28,603:__main__:https://www.burkett.com/blodgett-combi-bc-20e-cooking-more-options
+2025-11-17 11:07:35,888:__main__:blodgett Brand Name Matched
+2025-11-17 11:07:39,146:__main__:17366 >> Updated details for product with mpn "BC-20E (828021)".
+2025-11-17 11:07:42,137:__main__:17366 >> Added new product in ProductVendor "17366 x 828021".
+2025-11-17 11:07:45,008:__main__:17366 >> Added product vendor URL for vendor_product_id "4882400".
+2025-11-17 11:07:47,864:__main__:Record Inserted for vendor_product_id (4882400) and source (direct_from_website)
+2025-11-17 11:07:54,074:__main__:History Table is up-to-date.
+2025-11-17 11:07:54,570:__main__:Record Inserted for vendor_product_id (4882400) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:08:13,616:__main__:https://www.burkett.com/blodgett-combi-bc-20g-cooking-more-options
+2025-11-17 11:08:36,664:__main__:blodgett Brand Name Matched
+2025-11-17 11:08:39,800:__main__:17366 >> Updated details for product with mpn "BC-20G (714561)".
+2025-11-17 11:08:42,684:__main__:17366 >> Added new product in ProductVendor "17366 x 714561".
+2025-11-17 11:08:45,560:__main__:17366 >> Added product vendor URL for vendor_product_id "4882401".
+2025-11-17 11:08:48,438:__main__:Record Inserted for vendor_product_id (4882401) and source (direct_from_website)
+2025-11-17 11:08:54,643:__main__:History Table is up-to-date.
+2025-11-17 11:08:55,113:__main__:Record Inserted for vendor_product_id (4882401) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:09:13,760:__main__:https://www.burkett.com/blodgett-combi-bcx-14e-dbl-cooking-more-options
+2025-11-17 11:09:34,434:__main__:blodgett Brand Name Matched
+2025-11-17 11:09:37,668:__main__:17366 >> Updated details for product with mpn "BCX-14E DBL (714564)".
+2025-11-17 11:09:40,549:__main__:17366 >> Added new product in ProductVendor "17366 x 714564".
+2025-11-17 11:09:43,539:__main__:17366 >> Added product vendor URL for vendor_product_id "4882402".
+2025-11-17 11:09:46,574:__main__:Record Inserted for vendor_product_id (4882402) and source (direct_from_website)
+2025-11-17 11:09:52,849:__main__:History Table is up-to-date.
+2025-11-17 11:09:53,327:__main__:Record Inserted for vendor_product_id (4882402) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:10:11,637:__main__:https://www.burkett.com/blodgett-combi-bcx-14e-sgl-cooking-more-options
+2025-11-17 11:10:18,812:__main__:blodgett Brand Name Matched
+2025-11-17 11:10:21,947:__main__:17366 >> Updated details for product with mpn "BCX-14E SGL (714559)".
+2025-11-17 11:10:24,835:__main__:17366 >> Added new product in ProductVendor "17366 x 714559".
+2025-11-17 11:10:27,736:__main__:17366 >> Added product vendor URL for vendor_product_id "4882403".
+2025-11-17 11:10:30,633:__main__:Record Inserted for vendor_product_id (4882403) and source (direct_from_website)
+2025-11-17 11:10:36,886:__main__:History Table is up-to-date.
+2025-11-17 11:10:37,364:__main__:Record Inserted for vendor_product_id (4882403) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:10:55,494:__main__:https://www.burkett.com/blodgett-combi-bcx-14g-dbl-cooking-more-options
+2025-11-17 11:11:03,943:__main__:blodgett Brand Name Matched
+2025-11-17 11:11:07,090:__main__:17366 >> Updated details for product with mpn "BCX-14G DBL (714565)".
+2025-11-17 11:11:10,172:__main__:17366 >> Added new product in ProductVendor "17366 x 714565".
+2025-11-17 11:11:13,124:__main__:17366 >> Added product vendor URL for vendor_product_id "4882404".
+2025-11-17 11:11:16,071:__main__:Record Inserted for vendor_product_id (4882404) and source (direct_from_website)
+2025-11-17 11:11:22,371:__main__:History Table is up-to-date.
+2025-11-17 11:11:22,844:__main__:Record Inserted for vendor_product_id (4882404) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:11:41,497:__main__:https://www.burkett.com/blodgett-combi-bcx-14g-sgl-cooking-more-options
+2025-11-17 11:11:49,816:__main__:blodgett Brand Name Matched
+2025-11-17 11:11:52,995:__main__:17366 >> Updated details for product with mpn "BCX-14G SGL (714560)".
+2025-11-17 11:11:55,914:__main__:17366 >> Added new product in ProductVendor "17366 x 714560".
+2025-11-17 11:11:58,874:__main__:17366 >> Added product vendor URL for vendor_product_id "4882405".
+2025-11-17 11:12:01,722:__main__:Record Inserted for vendor_product_id (4882405) and source (direct_from_website)
+2025-11-17 11:12:07,964:__main__:History Table is up-to-date.
+2025-11-17 11:12:08,440:__main__:Record Inserted for vendor_product_id (4882405) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:12:26,846:__main__:https://www.burkett.com/blodgett-blct-10e-6-pan-electric-combi-oven-steamer-mini
+2025-11-17 11:12:33,968:__main__:blodgett Brand Name Matched
+2025-11-17 11:12:37,168:__main__:17366 >> Updated details for product with mpn "BLCT-10E (828056)".
+2025-11-17 11:12:40,128:__main__:17366 >> Added new product in ProductVendor "17366 x 828056".
+2025-11-17 11:12:43,005:__main__:17366 >> Added product vendor URL for vendor_product_id "4882406".
+2025-11-17 11:12:45,941:__main__:Record Inserted for vendor_product_id (4882406) and source (direct_from_website)
+2025-11-17 11:12:52,304:__main__:History Table is up-to-date.
+2025-11-17 11:12:52,786:__main__:Record Inserted for vendor_product_id (4882406) and source (direct_from_website) In z_17366_VendorPricing history table.
+2025-11-17 11:13:11,268:__main__:https://www.burkett.com/blodgett-combi-blct-10e-h-cooking-more-options
