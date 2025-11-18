@@ -309,14 +309,14 @@ def checkInsertProduct(vendor_id, brand_id, mpn, name, msrp, image):
                 return this.lastrowid
             else:
                 product_id, product_name, product_image = records
-                if product_name is None:
-                    this.execute("UPDATE Product SET product_name = %s WHERE product_id = %s", [name, product_id])
-                if not product_image or "afsupply" not in product_image.lower():
-                    this.execute("UPDATE Product SET product_image = %s WHERE product_id = %s", [image, product_id])
-                if msrp != '':
-                    this.execute("UPDATE Product SET msrp = %s WHERE product_id = %s AND msrp IS NULL", [msrp, product_id])
-                conn.commit()
-                logger.info(f'{vendor_id} >> Updated details for product with mpn "{mpn} ({product_id})".')
+                # if product_name is None:
+                #     this.execute("UPDATE Product SET product_name = %s WHERE product_id = %s", [name, product_id])
+                # if not product_image or "afsupply" not in product_image.lower():
+                #     this.execute("UPDATE Product SET product_image = %s WHERE product_id = %s", [image, product_id])
+                # if msrp != '':
+                #     this.execute("UPDATE Product SET msrp = %s WHERE product_id = %s AND msrp IS NULL", [msrp, product_id])
+                # conn.commit()
+                logger.info(f'{vendor_id} >> Already details saved for product with mpn "{mpn} ({product_id})".')
                 return product_id
     except mysql.connector.Error as e:
         logger.warning(f"{vendor_id} >> MySQL ERROR checkInsertProduct() >> {e}")
