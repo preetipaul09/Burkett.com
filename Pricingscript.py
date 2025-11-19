@@ -80,8 +80,11 @@ def fetch_data(driver, vendor_product_id, product_id, given_product_mpn, product
                 scraped_product_mpn = None
                 temp["product_mpn"] = None
 
-            if given_product_mpn != scraped_product_mpn:
+            if (given_product_mpn).strip().lower() != (scraped_product_mpn).strip().lower():
                 logger.warning(f"MPN mismatch for {product_url}: given_product_mpn:{given_product_mpn}, scraped_product_mpn:{scraped_product_mpn}")
+                Valid_for_Direct_Website_Scraping = '0'
+                Not_Valid_for_Direct_Website_Scraping_Reason = 'MPN not matched auto.'
+                ProductVendorValidProduct(vendor_product_id,Valid_for_Direct_Website_Scraping,Not_Valid_for_Direct_Website_Scraping_Reason)
                 with open("OldMpnNotMatched.txt", mode="a", encoding="utf-8") as file:
                     file.write(f"{product_url} | given_product_mpn: {given_product_mpn} | scraped_product_mpn: {scraped_product_mpn}\n")
                 return
@@ -196,18 +199,39 @@ def fetch_data(driver, vendor_product_id, product_id, given_product_mpn, product
                 #     return None
 
                 # ✅ Correct comparison syntax
-                # if temp2['vendor_call_for_best_price'] == '0' and temp2['vendorprice_price'] == '0.0':
-                #     return None
-                # else:
-                #     insertall(product_id, vendor_product_id, temp2, vendor_id)
+                if temp2['vendor_call_for_best_price'] == '0' and temp2['vendorprice_price'] == '0.0':
+                    return None
+                else:
+                    insertall(product_id, vendor_product_id, temp2, vendor_id)
                     
-                # evalRanking(vendor_id, product_id)
-                # return temp, temp2
+                evalRanking(vendor_id, product_id)
+                return temp, temp2
 
     except Exception as e:
         print(f"Error getting product details: {e}")
         return []
 
+def ProductVendorValidProduct(vendor_product_id,Valid_for_Direct_Website_Scraping,Not_Valid_for_Direct_Website_Scraping_Reason):
+    try:
+        conn = mysql.connector.connect(host=HOST, database=DB, user=USER, password=PASS)
+        cursor = conn.cursor()
+
+        query = """
+            UPDATE ProductVendor
+            SET 
+                Valid_for_Direct_Website_Scraping = %s,
+                Not_Valid_for_Direct_Website_Scraping_Reason = %s
+            WHERE 
+                vendor_product_id = %s
+        """
+        values = (Valid_for_Direct_Website_Scraping,Not_Valid_for_Direct_Website_Scraping_Reason,vendor_product_id)
+        cursor.execute(query, values)
+        conn.commit()
+        logger.debug(f"Update Valid_for_Direct_Website_Scraping for vendor_product_id : {vendor_product_id}")
+    except mysql.connector.Error as err:
+        logger.debug("Error:", err)
+    finally:
+        cursor.close()
 
 def clean_value(value):
     """Convert 'N/A', 'null', or empty strings to None, else return stripped value."""
@@ -309,14 +333,14 @@ def checkInsertProduct(vendor_id, brand_id, mpn, name, msrp, image):
                 return this.lastrowid
             else:
                 product_id, product_name, product_image = records
-                # if product_name is None:
-                #     this.execute("UPDATE Product SET product_name = %s WHERE product_id = %s", [name, product_id])
-                # if not product_image or "afsupply" not in product_image.lower():
-                #     this.execute("UPDATE Product SET product_image = %s WHERE product_id = %s", [image, product_id])
-                # if msrp != '':
-                #     this.execute("UPDATE Product SET msrp = %s WHERE product_id = %s AND msrp IS NULL", [msrp, product_id])
-                # conn.commit()
-                logger.info(f'{vendor_id} >> Already details saved for product with mpn "{mpn} ({product_id})".')
+                if product_name is None:
+                    this.execute("UPDATE Product SET product_name = %s WHERE product_id = %s", [name, product_id])
+                if not product_image or "afsupply" not in product_image.lower():
+                    this.execute("UPDATE Product SET product_image = %s WHERE product_id = %s", [image, product_id])
+                if msrp != '':
+                    this.execute("UPDATE Product SET msrp = %s WHERE product_id = %s AND msrp IS NULL", [msrp, product_id])
+                conn.commit()
+                logger.info(f'{vendor_id} >> Updated details for product with mpn "{mpn} ({product_id})".')
                 return product_id
     except mysql.connector.Error as e:
         logger.warning(f"{vendor_id} >> MySQL ERROR checkInsertProduct() >> {e}")
@@ -688,7 +712,7 @@ def getUrls(driver,vendor_id, vendor_url):
                 INNER JOIN TempVendorPricing ON ProductVendor.vendor_product_id = TempVendorPricing.vendor_product_id
                 INNER JOIN Product ON Product.product_id = ProductVendor.product_id
                 INNER JOIN Brand ON Brand.brand_id = Product.brand_id
-                WHERE ProductVendor.vendor_id = %s
+                WHERE ProductVendor.vendor_id = %s AND ProductVendor.Valid_for_Direct_Website_Scraping = '1'
             """
             this.execute(getVendorURLQuery, [vendor_id,])
             url_list = this.fetchall()
